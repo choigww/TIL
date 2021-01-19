@@ -18,14 +18,12 @@ Linear Regressor는 0, 1 등 discrete하게 구분된 소수의 라벨을 구하
 
 
 
-```
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-```
+![formula1](https:/render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+
 
 $$
 f(w) = \sum_{i=1}^{n}(wx_{i}-y_{i})^2
 $$
-
 
 
 따라서 Linear Regression Model은 Least Square 수식에 대한 최소값을 구하는 것을 목적으로 한다. 위 수식에 대한 최소값을 알아내기 위해서, w(가중치/파라미터)에 대하여 미분을 1회 적용한 값이 0이 되는 지점을 파악해야 한다.
